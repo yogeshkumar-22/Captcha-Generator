@@ -8,8 +8,7 @@ let text = "";
 //Generate Text
 const textGenerator = () => {
   let generatedText = "";
-  /* String.fromCharCode gives ASCII value from a given number */
-  // total 9 letters hence loop of 3
+
   for (let i = 0; i < 3; i++) {
     //65-90 numbers are capital letters
     generatedText += String.fromCharCode(randomNumber(65, 90));
@@ -27,7 +26,6 @@ const randomNumber = (min, max) =>
 
 //Canvas part
 function drawStringOnCanvas(string) {
-  //The getContext() function returns the drawing context that has all the drawing properties and functions needed to draw on canvas
   let ctx = canvas.getContext("2d");
   //clear canvas
   ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
