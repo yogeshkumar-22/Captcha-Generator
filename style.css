@@ -5,10 +5,10 @@
   }
   body {
     height: 100vh;
-    background: linear-gradient(135deg, #00416a, #e4e5e6);
+    background: linear-gradient(135deg, #ff8086, #d64fff);
   }
   .container {
-    width: 32em;
+    width: 50rem;
     background-color: #ffffff;
     padding: 5em;
     border-radius: 0.6em;
@@ -30,8 +30,9 @@
   }
   button#reload-button {
     font-size: 26px;
+    cursor: pointer;
     width: 4.6em;
-    background-color: #00416a;
+    background-color: #41dc6a;
     border: none;
     border-radius: 0.4em;
     color: #ffffff;
@@ -46,11 +47,12 @@
   }
   button#submit-button {
     width: 100%;
-    background-color: #00416a;
+    background-color: #41dc6a;
     color: #ffffff;
     font-size: 1.5em;
     border: none;
     margin-top: 1em;
+    cursor: pointer;
     padding: 0.8em 0;
     border-radius: 0.4em;
     font-family: "Roboto Mono", monospace;
